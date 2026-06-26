@@ -1,106 +1,71 @@
 # Primer-administracion-de-bd
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Backup Base de Datos Hotel</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background:#f4f6f9;
-            margin:40px;
-        }
+# 🏨 Sistema de Gestión Hotelera
 
-        .card{
-            max-width:800px;
-            margin:auto;
-            background:#fff;
-            padding:30px;
-            border-radius:15px;
-            box-shadow:0 8px 20px rgba(0,0,0,.15);
-        }
-
-        h1{
-            color:#0d6efd;
-            text-align:center;
-        }
-
-        p{
-            font-size:17px;
-            line-height:1.8;
-            color:#444;
-            text-align:justify;
-        }
-
-        ul{
-            font-size:17px;
-            color:#333;
-        }
-
-        li{
-            margin:10px 0;
-        }
-
-        footer{
-            text-align:center;
-            margin-top:25px;
-            color:gray;
-            font-size:14px;
-        }
-
-        .badge{
-            background:#0d6efd;
-            color:white;
-            padding:6px 12px;
-            border-radius:20px;
-            font-size:14px;
-        }
-    </style>
-</head>
-<body>
-
-<div class="card">
-
-<h1>🏨 Backup de Base de Datos - Sistema Hotelero</h1>
-
-<p>
-Este repositorio contiene el respaldo (Backup) de una base de datos desarrollada en
-<strong>MySQL</strong> para un sistema de gestión hotelera. El proyecto fue diseñado
-siguiendo el modelo relacional e incluye las tablas principales necesarias para la
-administración de clientes, habitaciones, empleados, reservas y pagos.
+<p align="center">
+  <img src="https://img.shields.io/badge/MySQL-Base%20de%20Datos-blue?style=for-the-badge&logo=mysql">
+  <img src="https://img.shields.io/badge/SQL-125%20Registros-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Proyecto-Académico-orange?style=for-the-badge">
 </p>
 
-<h2>📋 Contenido</h2>
-
-<ul>
-    <li>✔ Tabla <strong>Habitaciones</strong></li>
-    <li>✔ Tabla <strong>Clientes</strong></li>
-    <li>✔ Tabla <strong>Empleados</strong></li>
-    <li>✔ Tabla <strong>Reservas</strong></li>
-    <li>✔ Tabla <strong>Pagos</strong></li>
-</ul>
-
-<h2>⚙ Características</h2>
-
-<ul>
-    <li>🔹 Claves primarias (Primary Keys).</li>
-    <li>🔹 Claves foráneas (Foreign Keys).</li>
-    <li>🔹 Relaciones entre tablas.</li>
-    <li>🔹 25 registros de prueba en cada tabla.</li>
-    <li>🔹 Compatible con MySQL y phpMyAdmin.</li>
-</ul>
-
-<p>
-<span class="badge">Proyecto Académico</span>
-Este respaldo permite restaurar completamente la estructura y los datos de la base
-de datos para realizar pruebas, demostraciones o continuar el desarrollo del sistema.
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=900" width="700">
 </p>
 
-<footer>
-Desarrollado como práctica de Bases de Datos • MySQL
-</footer>
+---
 
-</div>
+# 📖 Descripción
 
-</body>
-</html>
+Este repositorio contiene el **backup de una base de datos MySQL** para un **Sistema de Gestión Hotelera**.
+
+La base de datos fue diseñada utilizando el modelo relacional e incluye las tablas principales necesarias para administrar habitaciones, clientes, empleados, reservas y pagos.
+
+---
+
+# 📂 Tablas
+
+| Tabla | Descripción |
+|-------|-------------|
+| 🛏️ Habitaciones | Información de las habitaciones del hotel. |
+| 👤 Clientes | Datos de los huéspedes. |
+| 👨‍💼 Empleados | Información del personal del hotel. |
+| 📅 Reservas | Registro de las reservas realizadas. |
+| 💳 Pagos | Control de los pagos efectuados. |
+
+---
+
+# ⚙ Características
+
+✅ Base de datos MySQL
+
+✅ Claves Primarias (Primary Key)
+
+✅ Claves Foráneas (Foreign Key)
+
+✅ Relaciones entre tablas
+
+✅ 25 registros de prueba por tabla
+
+✅ Compatible con phpMyAdmin
+
+---
+
+# 🛠 Tecnologías
+
+- MySQL
+- SQL
+- phpMyAdmin
+- InfinityFree
+
+---
+
+# 👨‍🎓 Autor
+
+**Jason Daniel Rodríguez Quinteros**
+
+Proyecto realizado para la asignatura **Administración de Bases de Datos**.
+
+---
+
+<p align="center">
+⭐ Si te gustó este proyecto, puedes darle una estrella al repositorio.
+</p>
