@@ -62,7 +62,7 @@ La base de datos fue diseñada utilizando el modelo relacional e incluye las tab
 
 **Jason Daniel Rodríguez Quinteros**
 
-Proyecto realizado para la asignatura **Administración de Bases de Datos**.
+Proyecto realizado para mi modulo **Administración de Bases de Datos**.
 
 ---
 
